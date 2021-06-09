@@ -7,6 +7,7 @@ body {
   background: linear-gradient(to top left, #28b487, rgb(19, 236, 19));
   height: 100vh;
   position: relative;
+  text-transform: capitalize;
 }
 .main-div {
   display: flex;
@@ -30,6 +31,9 @@ body {
 .btn:hover {
   box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.63);
   transition: 0.5s;
+}
+.hidden {
+  display: none;
 }
 @media screen and (max-width: 400px) {
   .btn {
