@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top left, #28b487, rgb(19, 236, 19));
+  height: 100vh;
+  position: relative;
+}
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.63);
+  transition: 0.5s;
+}
+@media screen and (max-width: 400px) {
+  .btn {
+    padding: 0.7rem;
+    margin: 0.5;
+  }
+}
