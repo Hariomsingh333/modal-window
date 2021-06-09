@@ -1,1 +1,5 @@
-this project is based on UI component
+what i use to this
+
+- basic html
+- basic css
+- some javascript
